@@ -1,6 +1,6 @@
 # Portfolio: Data Science for Biology & Environment 🌿
 
-Welcome to my portfolio! I am Alexandra, a researcher and developer dedicated to exploring the intersection of **AI, machine learning, and environmental/biological systems**. This repository serves as a showcase of my technical projects, featuring solutions built with Python, R, and Google Colab[cite: 1].
+Welcome to my portfolio! I am Alexandra, a researcher and developer dedicated to exploring the intersection of **AI, machine learning, and environmental/biological systems**. This repository serves as a showcase of my technical projects, featuring solutions built with Python, R, and Google Colab.
 
 ## 🔬 Core Competencies
 
@@ -10,7 +10,7 @@ My technical toolkit is focused on producing reproducible research and data-driv
 * **Programming Languages**:
     * **Python**: Used for data extraction, preprocessing, and building analysis pipelines (e.g., protein feature analysis).
     * **R**: Currently developing foundational mastery for specialized environmental, medical, and biological data analysis.
-* **Development Workflow**: I prioritize **Google Colab** for all my data and coding projects to ensure consistency and ease of collaboration].
+* **Development Workflow**: I prioritize **Google Colab** for all my data and coding projects to ensure consistency and ease of collaboration.
 
 ## 🚀 Featured Projects
 
