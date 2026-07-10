@@ -25,7 +25,7 @@ I am deeply driven by solutions that integrate **technology, AI, biology, and su
 
 ## 📬 Get in Touch
 
-* **Current Focus**: Pursuing PhD opportunities in environmental and biological systems research (e.g., WyoPATH)[cite: 1].
+* **Current Focus**: Pursuing PhD opportunities in environmental and biological systems research. [cite: 1].
 * **Connect**: I am always excited to discuss new collaborations, data challenges, or sustainable technology solutions![cite: 1].
 
 ---
