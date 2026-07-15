@@ -8,7 +8,7 @@ The two-phase training approach (Feature Extraction followed by full-network Fin
 * **Initial Transfer Learning Accuracy:** 94.26%
 * **Post Fine-Tuning Accuracy:** ~96.00%
 
-![Final Confusion Matrix](images/final_confusion_matrix.png)
+![Final Confusion Matrix](Images/final_confusion_matrix.png)
 
 The confusion matrix indicates exceptional precision across major categories. Minor misclassifications primarily occurred between visually overlapping classes, such as "Highway" and "River" (due to similar linear geographic geometries) and "Pasture" vs. "Herbaceous Vegetation."
 
