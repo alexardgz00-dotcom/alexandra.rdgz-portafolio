@@ -1,4 +1,5 @@
 # Eco-Vision: Mapping Urban Sprawl Using Deep Learning & Satellite Imagery
+## 📌 Project Overview
 
 This repository contains an end-to-end deep learning pipeline that uses PyTorch and a fine-tuned ResNet50 model to classify land cover and detect urban sprawl. The model was trained on the EuroSAT dataset and deployed to analyze real-world Sentinel-2 satellite imagery of Querétaro, Mexico, comparing the landscape of 2018 to 2026.
 
@@ -24,14 +25,14 @@ The core machine learning pipeline is built in Python using Google Colab to leve
 ### Prerequisites
 Upload the `Urban_Sprawl_Analysis.ipynb` notebook to Google Colab and ensure your Runtime is set to **GPU** (`Runtime > Change runtime type > T4 GPU`). 
 
-### Execution Steps
+### 🚀 How to Run
 1. **Data Preparation:** Run the initial cells to download the EuroSAT dataset directly into the Colab environment and initialize the PyTorch `DataLoader`.
 2. **Model Training (Feature Extraction):** The notebook downloads a pre-trained ResNet50 model. The base layers are frozen, and the final fully connected layer is replaced to classify 10 specific land-cover categories. Run the training loop for 10 epochs.
 3. **Fine-Tuning:** Unfreeze all network weights and run the secondary training loop for 5 epochs with a reduced learning rate (`0.0001`) to adapt the edge-detectors to satellite topographies.
 4. **Evaluation:** Run the testing block to generate the classification report and Confusion Matrix.
 5. **Geospatial Inference:** Mount your Google Drive in Colab. Point the inference script to the `Queretaro_2018_RGB.tif` and `Queretaro_2026_RGB.tif` files. The script will chop the images into 64x64 patches, classify them, and render the final Land Cover Transition Maps and Sankey flow diagrams.
 
-### Common Pitfalls & Troubleshooting
+### 🛠️Common Pitfalls & Troubleshooting
 
 If you are replicating this project in Google Colab, you may encounter the following environmental quirks:
 
