@@ -17,7 +17,7 @@ My technical toolkit is focused on producing reproducible research and data-driv
 | Project Name | Focus Area | Technologies |
 | :--- | :--- | :--- |
 | Bacterial Protein Analysis | Computational Biology | Python, UniProt, Colab |
-| Environmental Data Modeling | Environmental Science | R, ML |
+| Urban Sprawl with Sat Images | Environmental Science | Python, ResNet50, Google Earth Engine, Colab|
 
 ## 🎯 My Mission
 
