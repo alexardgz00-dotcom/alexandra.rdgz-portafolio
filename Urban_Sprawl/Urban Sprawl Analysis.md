@@ -17,17 +17,17 @@ To test the model's real-world viability, it was applied to Sentinel-2 imagery o
 
 The inference engine processed massive `.tif` files by generating a sliding 64x64 pixel window, passing each patch through the ResNet50 architecture, and reconstructing the geographic array into a color-coded classification map.
 
-![Queretaro Baseline 2018-2026]images/queretaro_change_detection.png)
+![Queretaro Baseline 2018-2026](Images/queretaro_change_detection.png)
 
 ## 3. Change Detection & Transition Analysis
 The primary objective was to quantify the loss of natural and agricultural land to urbanization over an 8-year period. By generating boolean masks over the 2018 and 2026 classification arrays, we isolated specific geographic patches that transitioned from "Nature/Agriculture" (Annual Crop, Forest, Pasture, Herbaceous Vegetation) to "Urban" (Residential, Industrial).
 
-![Fate of 2018 Green Space in Querétaro (by 2026)]images/queretaro_urban_sprawl_chart.png)
+![Fate of 2018 Green Space in Querétaro (by 2026)](Images/queretaro_urban_sprawl_chart.png)
 
 ### Flow of Land Conversion
 To move beyond net-loss and understand the specific dynamics of the sprawl, a transition matrix was calculated and visualized using a Plotly Sankey Diagram. 
 
-![Querétaro Land Cover Transition Matrix (2018 → 2026)]images/queretaro_transition_matrix.png)
+![Querétaro Land Cover Transition Matrix (2018 → 2026)](Images/queretaro_transition_matrix.png)
 
 **Key Findings:**
 1. **Primary Sprawl Vector:** The analysis reveals that residential and industrial expansion is primarily consuming `AnnualCrop` and `Pasture` lands rather than old-growth `Forest`. 
